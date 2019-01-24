@@ -289,7 +289,7 @@ ul#nav li.current a { color: #F06000; }
 	width: 95%;
 	float: left;
 	padding: 0;
-	text-align: left;
+   text-align: left;
 }
 .bars .skills {
   	margin-top: 36px;
@@ -325,20 +325,20 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+.angular {
+  	width: 90%;
+  	-moz-animation: angular 2s ease;
+  	-webkit-animation: angular 2s ease;
 }
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+.javaScript {
+  	width: 80%;
+  	-moz-animation: javaScript 2s ease;
+  	-webkit-animation: javaScript 2s ease;
 }
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+.typeScript {
+  	width: 85%;
+  	-moz-animation: typeScript 2s ease;
+  	-webkit-animation: typeScript 2s ease;
 }
 .css {
   	width: 90%;
@@ -350,23 +350,34 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.ajax {
+  	width: 75%;
+  	-moz-animation: ajax 2s ease;
+  	-webkit-animation: ajax 2s ease;
+}
+.csharp {
+   width: 75%;
+   -moz-animation: csharp 2s ease;
+   -webkit-animation: csharp 2s ease;
 }
 
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
+.webApi {
+   width: 85%;
+   -moz-animation: webApi 2s ease;
+   -webkit-animation: webApi 2s ease;
 }
-@-moz-keyframes illustrator {
+
+@-moz-keyframes angular {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 90%;  }
 }
-@-moz-keyframes wordpress {
+@-moz-keyframes javaScript {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 80%;  }
+}
+@-moz-keyframes typeScript {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
@@ -376,23 +387,33 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes ajax {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 75%;  }
 }
 
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
+@-moz-keyframes csharp {
+   0%   { width: 0px;  }
+   100% { width: 70%;  }
+ }
+
+ @-moz-keyframes webApi {
+   0%   { width: 0px;  }
+   100% { width: 85%;  }
+ }
+
+@-webkit-keyframes angular {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ }
+@-webkit-keyframes javaScript {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+@-webkit-keyframes typeScript {
+   0%   { width: 0px;  }
+   100% { width: 85%;  }
+ }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
   100% { width: 90%;  }
@@ -401,11 +422,20 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
+@-webkit-keyframes ajax {
+   0%   { width: 0px;  }
+   100% { width: 75%;  }
+ }
+ 
+ @-webkit-keyframes csharp {
+    0%   { width: 0px;  }
+    100% { width: 70%;  }
+  }
 
+  @-webkit-keyframes webApi {
+   0%   { width: 0px;  }
+   100% { width: 85%;  }
+ }
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
