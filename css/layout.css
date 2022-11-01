@@ -30,6 +30,10 @@ body {
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
+#portfolio{
+  display: none;
+}
+
 header {
   position: relative;
   height: 800px;
